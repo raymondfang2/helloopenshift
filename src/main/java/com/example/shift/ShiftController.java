@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class ShiftController {
     @GetMapping("/")
     String home() {
-        return "Hello Openshift!";
+        return "<body style=\"background-color:green;\">Hello Openshift!</body>";
     }
 }
